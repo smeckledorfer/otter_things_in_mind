@@ -18,7 +18,7 @@ if selector == 'Otter Pictures':
 
     #pic_button = st.button('Press for Otters!')
     dir = '.\\otters'
-    path = random.choice(os.listdir(".\\"))
+    path = random.choice(os.listdir("./"))
     #path = "C:\\Users\\Matthew\\streamlit_apps\\otter_pics\\" + path
     path = path.strip()
     st.write(path)
