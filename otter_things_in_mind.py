@@ -29,12 +29,12 @@ elif selector == 'Otter DNA':
 
     st.subheader('Otter DNA art with Lissajous Curves')
 
-    st.image(".\\lissajous_dna_plot.png")
+    st.image("./lissajous_dna_plot.png")
 
 elif selector == 'Phone a Friend':
 
     st.subheader("Call an *OTTER!*")
-    audio_file = open('.\\Otter Whistle Short - QuickSounds.com.mp3', 'rb')
+    audio_file = open('./Otter Whistle Short - QuickSounds.com.mp3', 'rb')
     audio_file = audio_file
     audio_bytes = audio_file.read()
     st.audio(audio_bytes,format='audio/ogg')
